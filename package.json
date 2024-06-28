@@ -1,0 +1,36 @@
+{
+	"name": "tstl-simple-delete",
+	"version": "1.0.0",
+	"description": "TypeScriptToLua plugin that replaces calls to the TSTL `delete` function with a statement setting a value to `nil`.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/thinknathan/tstl-simple-delete.git"
+	},
+	"author": "Nathan Bolton (https://thinknathan.ca/)",
+	"license": "CC0-1.0",
+	"main": "dist/tstl-simple-delete.cjs",
+	"type": "commonjs",
+	"files": [
+		"dist/tstl-simple-delete.cjs"
+	],
+	"scripts": {
+		"ci": "tsc --noEmit && npm run lint",
+		"build": "tsc && npm run renameCjs && prettier \"./dist/*.cjs\" --write",
+		"renameCjs": "node -e \"require('fs').renameSync('dist/tstl-simple-delete.js', 'dist/tstl-simple-delete.cjs')\"",
+		"lint": "eslint ./*.ts",
+		"prettier": "prettier --write ./"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"eslint": "^8.56.0",
+		"husky": "^9.0.11",
+		"prettier": "^3.1.0",
+		"typescript": "5.5.2",
+		"typescript-eslint": "^7.6.0",
+		"typescript-to-lua": "~1.26.0"
+	},
+	"peerDependencies": {
+		"typescript-to-lua": ">=1.22.0"
+	}
+}

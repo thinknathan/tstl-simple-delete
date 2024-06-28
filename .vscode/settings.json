@@ -1,0 +1,15 @@
+{
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.formatOnPaste": true,
+	"editor.tabSize": 2,
+	"editor.detectIndentation": false,
+	"eslint.experimental.useFlatConfig": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[md]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
