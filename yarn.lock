@@ -1571,9 +1571,9 @@ typescript-eslint@^7.6.0:
     "@typescript-eslint/utils" "7.15.0"
 
 typescript-to-lua@~1.26.0:
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.26.0.tgz#bb032105ba007c4b97c239e9372160664a15487e"
-  integrity sha512-Eg8VytMyHzFmlaB0EyZG+jMyAW1McxP/WMuz2NuCLYwJc73zlQzm62d3RK+3qeU5ivnvFqrDuR7+61gvsuGcsA==
+  version "1.26.2"
+  resolved "https://registry.yarnpkg.com/typescript-to-lua/-/typescript-to-lua-1.26.2.tgz#f418419d4dcce401a741599fb7e7f12025a77c07"
+  integrity sha512-nmlYhi0mlXOKK5q3GumstC/fk30xPSILQTK5GHcTovSiCzSovLUq0F6NNBnSMskmw9ENjUwdMtHUl2IpfeiGrw==
   dependencies:
     "@typescript-to-lua/language-extensions" "1.19.0"
     enhanced-resolve "^5.8.2"
